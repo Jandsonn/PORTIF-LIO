@@ -55,19 +55,22 @@
 }
 
 @keyframes move {
-    25% {
+    10% {
+        transform: translateY(-50px);
+    }
+    20% {
         transform: translateY(-50px);
     }
 
-    50% {
+    30% {
         transform: translateY(-100px);
     }
 
-    75% {
+    40% {
         transform: translateY(-150px);
     }
 
-    100% {
+    50% {
         transform: translateY(-200px);
     }
 }
@@ -76,7 +79,7 @@
     height: 50px;
     font-size: 20px;
     font-weight: bold;
-    color: rgb(32, 130, 60);
+    color: #02D35F;
     display: flex;
     align-items: center;
 }
@@ -91,7 +94,7 @@
 
 .i-bg {
     clip-path: polygon(10% 100%, 100% 0, 100% 100%, 16% 100%);
-    background-color: rgb(147, 192, 150);
+    background-color: #02D35F;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -106,4 +109,8 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.i-desc{
+    font-family: 'Roboto', sans-serif;
 }
